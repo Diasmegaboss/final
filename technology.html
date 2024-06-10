@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technology - Basic News Site</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        body {
+            background-color: #f8f9fa;
+            color: #343a40;
+        }
+        .navbar {
+            background-color: #17a2b8;
+        }
+        .navbar-brand, .nav-link {
+            color: #fff !important;
+        }
+        .navbar-brand:hover, .nav-link:hover {
+            color: #e9ecef !important;
+        }
+        .card {
+            border-color: #dee2e6;
+        }
+        .btn-primary {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+        }
+        .btn-primary:hover {
+            background-color: #117a8b;
+            border-color: #117a8b;
+        }
+    </style>
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html"><i class="fas fa-newspaper"></i> BasicNewsSite</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"><i class="fas fa-home"></i> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="politics.html"><i class="fas fa-landmark"></i> Politics</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="sports.html"><i class="fas fa-football-ball"></i> Sports</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="technology.html"><i class="fas fa-laptop-code"></i> Technology <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="world.html"><i class="fas fa-globe"></i> World</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="everyday.html"><i class="fas fa-calendar-day"></i> Everyday News</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container mt-5">
+        <h1 class="mb-4">Technology News</h1>
+        <div class="row">
+            <div class="col-lg-9">
+                <div class="card mb-3">
+                    <img src="https://www.techopedia.com/wp-content/uploads/2024/01/Big-Tech-Stock-Predictions.jpg" class="card-img-top" alt="technology news image">
+                    <div class="card-body">
+                        <h5 class="card-title">Latest Technological Advancements</h5>
+                        <p class="card-text">Stay updated with the latest news and breakthroughs in the world of technology.</p>
+                        <a href="#" class="btn btn-primary">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <!-- Sidebar Area -->
+            <div class="col-lg-3">
+                <h2 class="mb-3">Popular Topics</h2>
+                <ul class="list-group mb-4">
+                    <li class="list-group-item">Artificial Intelligence</li>
+                    <li class="list-group-item">Internet of Things (IoT)</li>
+                    <li class="list-group-item">Cybersecurity</li>
+                    <li class="list-group-item">Blockchain</li>
+                </ul>
+                <h2 class="mb-3">Trending Stories</h2>
+                <ul class="list-group">
+                    <li class="list-group-item">Top Tech Startups</li>
+                    <li class="list-group-item">Future Tech Trends</li>
+                    <li class="list-group-item">Exclusive Tech Reviews</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Custom JS for Event Listeners, Animations, and Sound -->
+    <script>
+        // Click Event Listener
+        document.addEventListener('click', function() {
+            console.log('Clicked!');
+        });
+
+        // Mouseover Event Listener
+        document.addEventListener('mouseover', function() {
+            console.log('Mouseover!');
+        });
+
+        // Keypress Event Listener
+        document.addEventListener('keypress', function() {
+            console.log('Keypress!');
+        });
+
+        // Animation Function
+        function animate() {
+            // Animation code here
+            console.log('Animation played!');
+        }
+
+        // Play Sound Function
+        function playSound() {
+            // Sound playing code here
+            console.log('Sound played!');
+        }
+    </script>
+</body>
+</html>
